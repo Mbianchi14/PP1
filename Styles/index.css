@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,400&family=Nunito:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(250, 252, 163);
+}
+
+.header {
+
+  background-color: rgb(64, 64, 65);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 15%;
+}
+
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 55px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links {
+  list-style: none;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links a {
+  font-size: 700;
+  color: white;
+  text-align: none;
+}
+
+.header .nav-links li a:hover {
+  color: rgb(238, 203, 47);
+}
+
+.header .btn button {
+  font-weight: 700;
+  color: rgb(17, 71, 44);
+  padding: 9px 25px;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header .btn button:hover {
+  background-color: white;
+  color: rgb(238, 203, 47);
+  transform: scale(1.2);
+}
+
+
+.header .btn-2 button {
+  font-weight: 700;
+  color: rgb(238, 203, 47);
+  padding: 9px 50px;
+  background: transparent;
+  border: 2px;
+  border-color: rgb(238, 203, 47);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header .btn-2 button:hover {
+  background-color: transparent;
+  color: rgb(238, 203, 47);
+  transform: scale(1.2);
+}
+
+.section h1 {
+
+  color: rgb(238, 203, 47);
+  font-size: 50px;
+}
+
+.section h2 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 50px;
+
+}
+
+.section img {
+  width: 100%;
+  height: max-content;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 0;
+  padding-right: 15%;
+  margin-left: 55%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.text-container .btn button {
+  font-weight: 700;
+  color: rgb(17, 71, 44);
+  padding: 9px 25px;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.text-container .btn button:hover {
+  background-color: white;
+  color: rgb(238, 203, 47);
+  transform: scale(1.2);
+}
+
+
+.text-container .btn-2 button {
+  font-weight: 700;
+  color: rgb(238, 203, 47);
+  padding: 9px 50px;
+  background: transparent;
+  border: 2px;
+  border-color: rgb(238, 203, 47);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.text-container .btn-2 button:hover {
+  background-color: transparent;
+  color: rgb(238, 203, 47);
+  transform: scale(1.2);
+}
+
+
+.footer {
+  background-color: rgb(250, 252, 163);
+}
